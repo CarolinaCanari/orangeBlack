@@ -1,0 +1,86 @@
+
+/*Estilo para tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+/*Qualidade Home*/
+
+/*Footer*/
+
+.footer_redes ul li {
+	display: inline-block;
+	padding-right: 5px;
+}
+
+.introducao h1 {
+	font-size: 36px;
+}
+}
+
+/*Estilo para Smartphones*/
+@media only screen and (max-width: 787px) {
+
+.introducao h1 {
+	font-size: 36px;
+}
+
+.header {
+	position: relative;
+	padding-bottom: 0px;
+}
+
+.header img {
+	margin: 0 auto 20px auto;
+}
+
+.header_menu {
+	text-align: center;
+}
+
+.header_menu ul li {
+	margin: 0;
+}
+
+.header_menu ul li a {
+	border: 2px solid #000;
+	width: 140px;
+	display: block;
+	font-weight: bold;
+	float: left;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.header_menu ul li a:hover {
+	border-color:#fff;
+}
+
+.header_menu ul li a.menu_ativo {
+	border-color: #fff;
+}
+
+
+.btn {
+	padding: 10px 38px;
+	margin-bottom: 50px;
+}
+
+
+/*Introdução*/
+.introducao {
+	margin-top: 0px;
+	padding-top: 20px;
+}
+
+
+/*Introdução interna*/
+.introducao_interna {
+	width: 100%;
+	height: 180px;
+	background-size:cover;
+	padding-top: 50px;
+}
+
+
+}
